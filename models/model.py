@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils.harmonic_dense_block import hardnet
-from utils.attention_block import Attention_block
+from models.utils.harmonic_dense_block import hardnet
+from models.utils.attention_block import Attention_block
 
 
 class up_conv(nn.Module):
